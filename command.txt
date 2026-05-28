@@ -1,0 +1,16 @@
+1. ip address add 1.1.1.1/24 dev eth0
+2. ip route add default via 1.1.1.1 dev eth0
+3. traceroute
+4. iperf3 -s
+5. iperf3 -c 1.1.1.1
+6. ip address / route
+
+vtysh
+
+show ip route
+show ip bgp
+show ip bgp summary
+show bgp neighbors
+show ip bgp all
+show ip bgp all detail
+cat /var/log/frr/frr.log
