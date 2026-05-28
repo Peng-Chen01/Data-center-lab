@@ -1,0 +1,3 @@
+ip address add 26.0.0.129/25 dev eth0
+
+ip route add default via 26.0.0.254 dev eth0
